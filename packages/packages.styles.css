@@ -46,6 +46,7 @@ main {
 	color: white;
 	background-color: #ff5454;
 	padding: 8px;
+	z-index: 10;
 }
 
 .package-section__second-heading {
