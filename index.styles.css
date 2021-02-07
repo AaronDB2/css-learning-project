@@ -1,21 +1,21 @@
 #product-overview {
 	background: url("./images/freedom.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: left 10% bottom 80%;
 	background-repeat: no-repeat;
 	background-origin: border-box;
 	background-clip: border-box;
-	width: 100%;
-	height: 528px;
-	padding: 10px;
-	margin-top: 51px;
+	width: 100vw;
+	height: 33vh;
+	padding: 0.625rem;
+	margin-top: 3.1875rem;
 	position: relative;
 }
 
 #product-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
-	margin-top: 44px;
+	margin-top: 2.75rem;
 	position: absolute;
 	bottom: 5%;
 }
@@ -28,8 +28,8 @@
 .plan {
 	background: #d44242;
 	text-align: center;
-	padding: 16px;
-	margin: 8px;
+	padding: 1rem;
+	margin: 0.5rem;
 	display: inline-block;
 	width: 30%;
 	vertical-align: middle;
@@ -50,7 +50,7 @@
 .plan__annotation {
 	background: white;
 	color: #690012;
-	padding: 8px;
+	padding: 0.5rem;
 	box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.5);
 	border-radius: 8px;
 }
@@ -62,7 +62,7 @@
 }
 
 .plan__features li {
-	margin: 8px;
+	margin: 0.5rem;
 }
 
 .plan__title {
@@ -83,13 +83,13 @@
 
 #key-features {
 	background: #b3727e;
-	margin-top: 80px;
-	padding: 16px;
+	margin-top: 5rem;
+	padding: 1rem;
 }
 
 #key-features > .section-title {
 	color: white;
-	margin: 32px;
+	margin: 2rem;
 }
 
 .key-feature__list {
@@ -107,17 +107,17 @@
 
 .key-feature__image {
 	background: white;
-	width: 128px;
-	height: 128px;
+	width: 8rem;
+	height: 8rem;
 	border: 2px solid #424242;
 	border-radius: 50%;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 1.25rem;
 }
 
 .key-feature__description {
 	text-align: center;
 	font-weight: bold;
 	color: white;
-	font-size: 20px
+	font-size: 1.25rem
 }

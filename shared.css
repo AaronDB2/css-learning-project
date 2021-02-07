@@ -5,12 +5,24 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	overflow-x: hidden;
+}
+
+.backdrop {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
 }
 
 .main-footer {
 	background: black;
-	padding: 32px;
-	margin-top: 48px;
+	padding: 2rem;
+	margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -22,7 +34,7 @@ body {
 
 .main-footer__link {
 	display: inline-block;
-	margin: 0 16px;
+	margin: 0 1rem;
 }
 
 .main-footer__link a {
@@ -40,7 +52,7 @@ body {
 	color: white;
 	font: inherit;
 	border: 1.5px solid #C02C2C;
-	padding: 8px;
+	padding: 0.5rem;
 	border-radius: 8px;
 	font-weight: bold;
 	cursor: pointer;
@@ -60,7 +72,7 @@ body {
 	width: 100%;
 	position: fixed;
 	background-color: #c90023;
-	padding: 8px 16px;
+	padding: 0.5rem 1rem;
 	top: 0;
 	left: 0;
 	z-index: 11; 
@@ -75,8 +87,8 @@ body {
 	color: #690012;
 	text-decoration: none;
 	font-weight: bold; 
-	font-size: 22px;
-	height: 22px;
+	font-size: 1.375rem;
+	height: 1.375rem;
 	display: inline-block;
 }
 
@@ -99,14 +111,14 @@ body {
 
 .main-nav__item {
 	display: inline-block;
-	margin: 8px;
+	margin: 0.5rem;
 }
 
 .main-nav__item a {
 	text-decoration: none;
 	color: #690012;
 	font-weight: bold;
-	padding: 3px;
+	padding: 0.1875rem;
 }
 
 .main-nav__item a:hover, 
@@ -118,7 +130,7 @@ body {
 .main-nav__item--cta a {
 	color: white;
 	background: #ff4242;
-	padding: 8px, 16px;
+	padding: 0.5rem, 1rem;
 	border-radius: 8px;
 }
 
