@@ -2,22 +2,22 @@
 
 .background {
     background: url("../images/plans-background.jpg") center/cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
     filter: grayscale(40%);
 }
 
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .package {
     border: 5px solid #0e4f1f;
     border-left: none;
-    margin: 48px 0;
-    padding: 20px;
+    margin: 3rem 0;
+    padding: 1.5rem;
     width: 80%;
     position: relative;
 }
@@ -58,7 +58,7 @@ main {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .packages__title {
@@ -81,18 +81,18 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
-    font-size: 12px;
+    margin: 1.5rem;
+    font-size: 1rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .packages__pharagraph {
     color: #0e4f1f;
     background: white;
-    font-size: 22px;
+    font-size: 1.5rem;
     border: 2px solid #0e4f1f;
-    padding: 16px;
+    padding: 1rem;
 }
 
