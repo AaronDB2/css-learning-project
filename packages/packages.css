@@ -1,5 +1,13 @@
 /* Packages */
 
+.background {
+    background: url("../images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 main {
     padding-top: 32px;
 }
@@ -10,6 +18,7 @@ main {
     margin: 48px 0;
     padding: 20px;
     width: 80%;
+    position: relative;
 }
 
 .package:hover,
@@ -65,6 +74,17 @@ main {
 
 .packages--premium .packages__sub-title {
     color: #bbb;
+}
+
+.packages__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
 }
 
 .packages__pharagraph {
