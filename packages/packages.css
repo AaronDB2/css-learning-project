@@ -96,3 +96,30 @@ main {
     padding: 1rem;
 }
 
+/* Media Query for Desktop*/
+@media (min-width: 40rem) and (min-height: 40rem) {
+
+    main {
+        margin: 3rem auto;
+        max-width: 93rem;
+    }
+}
+
+@media (min-width: 93rem) {
+
+    .package {
+        border-left: 4px solid #0e4f1f;
+    }
+
+    .packages--free {
+        border-right: 4px solid #0e4f1f;
+    }
+
+    .package--free:hover,
+    .package--free:active {
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        border-color: #ff5454;
+    }
+}
+
+

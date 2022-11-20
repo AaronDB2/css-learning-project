@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    min-height: calc(100vh - 3.5rem - 8rem);
+}
+
 /* Generic styling */
 
 .backdrop {
@@ -98,7 +102,7 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5rem;
+    height: 2.5rem;
     height: 22px;
     display: inline-block;
     vertical-align: middle;
@@ -109,10 +113,7 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 122px);
-    vertical-align: middle;
+    display: none;
 }
 
 .main-nav__items {
@@ -216,4 +217,25 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+/* Media Query for Desktop*/
+@media (min-width: 40rem) and (min-height: 40rem) {
+    
+    .toggle-button {
+        display: none;
+    }
+
+    .main-nav {
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 44px);
+        height: 2rem;
+        vertical-align: middle;
+    }
+
+    .main-footer__link {
+        display: inline-block;
+        margin: 0 1rem;
+    }
 }
