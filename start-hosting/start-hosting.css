@@ -14,6 +14,7 @@ main {
 
 .signup-form {
     padding: 1rem;
+    display: grid;
 }
 
 .signup-form label {
@@ -69,13 +70,19 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    margin-top: 1rem;
 }
 
 /* Media Query for Desktop */
 @media (min-width: 40rem) {
     .signup-form {
         margin: auto;
-        width: 25rem;
+        width: 30rem;
+        grid-template-columns: 10rem auto;
+        row-gap: 1rem;
+        column-gap: 0.5rem;
+    }
+
+    .signup-form__checkbox {
+        grid-column: span 2;
     }
 }
